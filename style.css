@@ -354,9 +354,9 @@ input::-moz-focus-inner {
 
 .wrapper {
   max-width: 1600px;
-  width: 100%;
-  position: relative;
   margin: 0 auto;
+  padding: 0px;
+  clear: both;
 }
 
 header {
@@ -365,80 +365,329 @@ header {
   background-position: center center;
   min-height: 100vh;
   text-transform: uppercase;
-  min-width: 100%;
-}
-
-h4 {
-  font-size: 4rem;
-  font-family: Kanit;
-  color: red;
-}
-
-header h2 {
-  margin-top: 0px;
-  font-size: 30px;
-  color: #ffffff;
-  font-weight: bold;
-  padding-left: 5%;
-  padding-top; 20px;
-  font-style: italic;
-  font-family: Kanit;
-
-}
-
-nav {
+  width: 100%;
   position: relative;
 }
 
-nav ul {
+h1 {
+  font-size: 116.2px;
+  color: #cc1d36;
+  font-family: Kanit;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 0.83;
+  margin: 0px;
+  padding: 0px;
+  top: 53%;
+  left: 10%;
+  right: 10%;
+  bottom: 22.8;
   position: absolute;
-  right: 0;
-  top: 0;
-  margin: 0;
-  margin-right: 8%;
+  width: 38.1%;
+  height: 24.3%;
+}
+
+header h2 {
+  color: white;
+  font-size: 25.5px;
+  font-family: Kanit;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: normal;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  left: 10%;
+  top: 3%;
+}
+
+header p {
+  color: #fcfbfb;
+  font-size: 31px;
+  font-family: Lato;
+  font-weight: lighter;
+  font-style: normal;
+  text-transform: lowercase;
+  line-height: 1.02;
+  letter-spacing: 0.29px;
+  padding-top: 3%;
+  margin: 0px;
+  position: absolute;
+  left: 10%;
+  top: 77.3%;
+  bottom: 16%;
+  height: 6.1%;
+  width: 38.1%;
+}
+
+nav {
+  position: absolute;
+  left: 67.6%;
+  right: 9.9%;
+  top: 2.5%;
+  width: 30%;
 }
 nav li {
   float: left;
-  text-transform: uppercase;
-  text-decoration: none;
+  padding: 2.5%;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 
 nav a {
-  font-size: 1.5rem;
+  line-height: 29px;
+  font-size: 18px;
   font-weight: 600px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 20px;
   font-family: Catamaran;
   color: #fcfcfc;
   font-stretch: normal;
-  text-align: right;
-}
-.icon-nav {
-  position: relative;
-  float: right;
 }
 
-.icon-nav li a {
-  list-style-type: none;
+.icon-nav i {
   color: white;
+  padding-bottom: 20px;
+  padding-right: 2px;
+}
+
+.icon-nav li {
+  margin-bottom: 5%;
+}
+
+.icon-nav ul {
+  list-style: none;
+  position: absolute;
+  top: 74.3%;
+  left: 94%;
+  right: 11%;
 }
 
 .news {
-  background: white;
-  float: left;
+  background-color: #fcfbfb;
+  padding-bottom: 5%;
 }
-
 .news h2 {
-  padding: 10px;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Kanit;
+  color: #0b0b0b;
+  left: 37.5%;
+  right: 37.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.car-gallery {
+  padding-top: 2.5%;
+  padding-left: 10.1%;
+  padding-right: 9.9%;
+}
+.car-gallery img {
+  width: 33%;
+  padding-right: 2%;
 }
 
-.gallery-images {
-  width: calc((100%- 10px) / 3);
-  margin-right: 10px;
-  /* border: 2px solid tomato; */
+.highlights {
+  background: blue;
+  width: 100%;
+  position: relative;
+}
+.words {
+  position: absolute;
+  left: 35%;
+}
+
+.words h2 {
+  font-family: Kanit;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.02;
+  margin: 0px;
+  letter-spacing: normal;
+  color: #0b0b0b;
+}
+
+.words p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #1f2022;
+}
+
+.car-grey {
   float: left;
+  padding-left: 9.9%;
+  padding-right: 2.5%;
+}
+
+.half,
+.two-half {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.two,
+.four {
+  width: 50%;
+  float: left;
+}
+
+.one,
+.three {
+  float: left;
+  width: 50%;
+}
+
+.two img,
+.three img {
+  width: 100%;
+}
+
+.one h2,
+.four h2 {
+  font-family: Kanit;
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.02;
+  letter-spacing: normal;
+  color: #0b0b0b;
+}
+
+.one p,
+.four p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #1f2022;
+  margin: 0px;
+  width: 545px;
+  height: 145px;
+}
+
+.banner {
+  clear: both;
+  background-image: url(images/banner-background.jpg);
+  height: 318px;
+  position: relative;
+}
+
+.banner span {
+  display: block;
+  color: white;
+}
+
+.banner a {
+  color: red;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 auto;
+  float: left;
+}
+footer {
+  background-color: #353638;
+  padding: 20px;
+  color: white;
+}
+
+.footer-left {
+  margin-top: 25px;
+  margin-left: 7%;
+  margin-right: 5%;
+  float: left;
+  width: 28%;
+  margin-bottom: 70px;
+}
+.footer-left p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.footer-nav {
+  margin-top: 20px;
+  width: 10%;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container {
+  width: 40%;
+  float: left;
+}
+
+.container h2 {
+  margin-top: 20px;
+}
+
+.container p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.email {
+  height: 200px;
+}
+
+.bar li a {
+  list-style: none;
+  text-decoration: none;
+}
+.container button {
+  text-transform: uppercase;
+  background-color: red;
+  color: beige;
+  padding: 14px 50px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+footer h2 {
+  margin-bottom: 15px;
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+footer li {
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: none;
+  margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+footer h2 {
+  text-transform: uppercase;
+}
+
+footer li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
